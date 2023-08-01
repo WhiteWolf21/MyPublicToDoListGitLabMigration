@@ -1,0 +1,13 @@
+exe0/
+*.log
+db.sqlite3
+*.pyc
+__pycache__
+.vscode/
+.env
+staticfiles/
+/static/
+chromedriver
+*.mutest
+.DS_Store
+.coverage

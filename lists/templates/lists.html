@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block header_text %}Your ToDo List{% endblock %}
+
+{% block form_action %}{% url 'view_list' user.email %}{% endblock %}
+
+{% block table %}
+<table id="id_list_table"> 
+    <tr>
+        <th>To-Do Item</th>
+    </tr>
+    {% for item in list.item_set.all %}
+    <tr>
+        <td>{{ forloop.counter }}: {{ item.text }}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}

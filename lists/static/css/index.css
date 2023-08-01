@@ -1,0 +1,44 @@
+body {
+    font-family: 'Muli';
+}
+
+body #title {
+    font-family: 'Merriweather';
+    font-weight: bolder;
+}
+
+.header {
+    padding: 5%;
+}
+
+.to-do-list {
+    margin: auto;
+    width: 90%;
+}
+
+.to-do-list comment {
+    font-weight: bolder;
+}
+
+.to-do-list form {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.to-do-list form input {
+    margin-left: 2%;
+    border: none;
+    border-color: rgb(70, 70, 70);
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    border-radius: 3px;
+}
+
+.to-do-list form label {
+    margin-right: 2%;
+    font-weight: bold;
+}
+
